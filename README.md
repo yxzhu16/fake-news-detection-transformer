@@ -1,9 +1,9 @@
 # fake-news-detection-transformer
-The encoder of the transformer network that produces a classification of each claim in PyTorch
+A transformer encoder that produces a classification of each claim in PyTorch
 
 
 ## Transformer Network
-Implemented a transformer encoder that produces a classification based on 
+Built a transformer encoder that produces a classification based on 
  - (i) the claim only, 
  - (ii) the claim and the claimant only (concatenated in one sequence)
  - (iii) the claim, the claimant and the 5 sentences from the related articles that are most similar to the claim (concatenated in one sequence). 
